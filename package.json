@@ -1,0 +1,11 @@
+{
+  "name": "fractal-demo",
+  "version": "0.1.0",
+  "scripts": {
+    "fractal": "node-sass sass/style.scss public/css/style.css -w & ./node_modules/.bin/fractal start --sync"
+  },
+  "dependencies": {
+    "@frctl/fractal": "^1.0.0",
+    "node-sass": "^3.8.0"
+  }
+}
